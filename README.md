@@ -2,4 +2,4 @@
 TBMI_ChIP pipeline
 
 
-![alt tag](https://github.com/tcchenbtx/TBMI_ChIP/blob/master/overview.jpg)
+![alt tag](https://github.com/tcchenbtx/TBMI_ChIP/blob/master/overview.tiff)
