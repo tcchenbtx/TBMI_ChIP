@@ -1,0 +1,44 @@
+
+# Please specify how files are named:
+#
+################################################################################
+#
+#  @Treatment: How do you name the different treatment conditions?
+#              Ex. Treatment1
+#                  Treatment2
+#
+# @Multi_Lane: Do you run same sample on multiple lanes?
+#              (the alignment results will be merged to call peak)
+#              YES/NO
+#
+#  @Replicate: Use : to pair each biological replicate. Control in the front
+#              Ex. T1_Con1:T1_Exp1
+#                  T1_Con2:T1_Exp2
+#                  T2_Con1:T2_Exp1
+#      
+#   @Pair_end: Do you run the sequencing as pair_end?             
+#              YES/NO
+#
+#  @Reference: Specify the reference genome. The following is supported: 
+#              mm9/mm10/hg18/hg19
+#              If your ideal reference genome is not listed above, you have to 
+#              create index for your own for Bowtie2
+################################################################################
+
+@Treatment:
+Fasting
+Refeding
+
+@Multi_Lane:
+YES
+
+@Replicate:
+18_Wally_Fasting_IgG:19_Wally_Fasting_GR
+20_Wally_Fasting_IgG:21_Wally_Fasting_GR
+
+@Pair_end:
+YES
+
+@Reference:
+mm10
+

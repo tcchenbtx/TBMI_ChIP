@@ -1,0 +1,19 @@
+{
+    "Multi_lane": [
+        "YES"
+    ], 
+    "Pair_end": [
+        "YES"
+    ], 
+    "Reference": [
+        "mm10"
+    ], 
+    "Replicate": [
+        "18_Wally_Fasting_IgG:19_Wally_Fasting_GR", 
+        "20_Wally_Fasting_IgG:21_Wally_Fasting_GR"
+    ], 
+    "Treatment": [
+        "Fasting", 
+        "Refeding"
+    ]
+}
