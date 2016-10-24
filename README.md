@@ -1,7 +1,6 @@
 # TBMI_ChIP
 TBMI_ChIP pipeline
 
-
 ![alt tag](https://github.com/tcchenbtx/TBMI_ChIP/blob/master/overview.png)
 
 ## Dependencies:
@@ -24,25 +23,25 @@ This TBMI_ChIP can help to perform the follwing:
 1. Put your ChIP-seq data under dataset folder
 2. modify the configure/configure.txt based on instructions
 3. in the main folder, use the following command to use the TBMI_ChIP:
-  1. make configure : to read through your configure input
-  2. make install_software: install necessary software (this step can be skipped if you install necessary software mannually)
-  3. make T : run TrimGalore to trim your data
-  4. make B : run Bowtiew2 to sequence alignment
-  5. make M : run MACS2 for peak calling
-  6. make I : run IDR for consistency analysis
-  7. make motif: run MEME-ChIP for motif analysis
-  8. make annotation: run Homer for gene annotation
+  1. <code>make configure</code> : to read through your configure input
+  2. <code>make install_software</code>: install necessary software (this step can be skipped if you install necessary software mannually)
+  3. <code>make T</code> : run TrimGalore to trim your data
+  4. <code>make B</code> : run Bowtiew2 to sequence alignment
+  5. <code>make M</code> : run MACS2 for peak calling
+  6. <code>make I</code> : run IDR for consistency analysis
+  7. <code>make motif</code>: run MEME-ChIP for motif analysis
+  8. <code>make annotation</code> : run Homer for gene annotation
 
 ### Short cut:
 You can also go through all analysis with the following commands:
-  1. make configure : to read through your configure input                      
-  2. make install_software: install necessary software (this step can be skipped if you install necessary software mannually)
-  3. make All
+  1. <code>make configure</code> : to read through your configure input                      
+  2. <code>make install_software</code> : install necessary software (this step can be skipped if you install necessary software mannually)
+  3. <code>make All</code>
 
 ## Other helpful commands:
-make Clean_My_Output : clean up the output folder
-make Uninstall_Software : uninstall software
-make Delete_My_Dataset : (please use with care) clean up the dataset folder
+* <code>make Clean_My_Output</code> : clean up the output folder
+* <code>make Uninstall_Software</code> : uninstall software
+* <code>make Delete_My_Dataset</code> : (please use with care) clean up the dataset folder
 
 
 
