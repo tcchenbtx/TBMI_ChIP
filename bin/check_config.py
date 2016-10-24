@@ -150,4 +150,8 @@ for i in userinput["Replicate"]:
     num += 1
 
 print (separator)
-
+print ("6. Run IDR to study the consistency of your ChIP-seq data.\n")
+print (separator)
+print ("7. Run MEME-ChIP to perform motif analysis.\n")
+print (separator)
+print ("8. Run Homer for gene annotation.\n")
